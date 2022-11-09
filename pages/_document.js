@@ -21,23 +21,13 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: Figtree;\n    font-size: 20px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.6;\n    color: var(--dl-color-ui-richdarkblue);\n    background-color: var(--dl-color-ui-0);\n    \n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: Figtree;\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 300;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: px;\n    line-height: 150%;\n    color: var(--dl-color-ui-richdarkblue);\n    background-color: var(--dl-color-ui-0);\n    \n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-            data-tag="font"
-          ></link>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&amp;display=swap"
-            data-tag="font"
-          ></link>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
           ></link>
           <link
