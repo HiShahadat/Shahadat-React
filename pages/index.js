@@ -9,54 +9,63 @@ const Home = (props) => {
           <title>Shahadat</title>
           <meta property="og:title" content="Shahadat" />
         </Head>
-        <div className="home-wrapper">
-          <div className="home-container1">
-            <h3>Shahadat&apos;s Pro</h3>
-            <nav className="home-container2">
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Shop
-              </a>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Shots
-              </a>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Stories
-              </a>
-              <a
-                href="mailto:shout@shahadat.pro?subject=Hi Shahadat..."
-                className="content button"
-              >
-                shout@shahadat.pro
-              </a>
-            </nav>
-          </div>
-          <div className="home-container3">
+        <div className="home-container1">
+          <div className="home-container2">
             <img
-              alt="pastedImage"
-              src="/playground_assets/pastedimage-99ft.svg"
+              alt="Shahadat Pro Logo"
+              src="/playground_assets/pastedimage-5qll.svg"
               className="home-pasted-image"
             />
-            <h1 className="home-text1 h-One">
-              <span>I&apos;m Shahadat</span>
-              <br></br>
-              <span>Designer, Photographer,</span>
-              <br></br>
-              <span>Micropreneur</span>
-              <br></br>
-            </h1>
+            <img
+              alt="pastedImage"
+              src="/playground_assets/pastedimage-nk3t.svg"
+              className="home-pasted-image1"
+            />
           </div>
+          <nav className="home-container3">
+            <a
+              href="https://example.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Shop
+            </a>
+            <a
+              href="https://example.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Shots
+            </a>
+            <a
+              href="https://example.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Stories
+            </a>
+            <a
+              href="mailto:shout@shahadat.pro?subject=Hi Shahadat..."
+              className="content button"
+            >
+              shout@shahadat.pro
+            </a>
+          </nav>
+        </div>
+        <div className="home-container4">
+          <img
+            alt="pastedImage"
+            src="/playground_assets/pastedimage-99ft.svg"
+            className="home-pasted-image2"
+          />
+          <h1 className="home-text h-One">
+            <span>I&apos;m Shahadat</span>
+            <br></br>
+            <span>Designer, Photographer,</span>
+            <br></br>
+            <span>Micropreneur</span>
+            <br></br>
+          </h1>
         </div>
       </div>
       <style jsx>
@@ -68,35 +77,45 @@ const Home = (props) => {
             overflow: auto;
             min-height: 100vh;
             align-items: center;
-            padding-top: var(--dl-space-space-oneandhalfunit);
             padding-left: var(--dl-space-space-twounit);
             padding-right: var(--dl-space-space-twounit);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneandhalfunit);
             background-color: var(--dl-color-ui-950);
-          }
-          .home-wrapper {
-            width: 100%;
-            display: flex;
-            max-width: var(--dl-size-size-mainwidth);
-            align-items: center;
-            flex-direction: column;
           }
           .home-container1 {
             gap: var(--dl-space-space-oneandhalfunit);
             width: 100%;
             display: flex;
             flex-flow: row wrap;
+            max-width: var(--dl-size-size-mainwidth);
+            margin-top: var(--dl-space-space-twounit);
             align-items: center;
             justify-content: space-between;
           }
           .home-container2 {
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: space-between;
+          }
+          .home-pasted-image {
+            width: 145px;
+            height: 24px;
+          }
+          .home-pasted-image1 {
+            top: -6px;
+            right: -18px;
+            width: 22px;
+            height: 8px;
+            position: absolute;
+          }
+          .home-container3 {
             gap: var(--dl-space-space-threeunit);
             display: flex;
             flex-flow: row wrap;
             align-items: center;
           }
-          .home-container3 {
+          .home-container4 {
             flex: 0 0 auto;
             width: 100%;
             height: auto;
@@ -111,11 +130,11 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-sixteenunit);
             justify-content: center;
           }
-          .home-pasted-image {
+          .home-pasted-image2 {
             width: 372px;
             height: 320;
           }
-          .home-text1 {
+          .home-text {
             width: 1392px;
             bottom: var(--dl-space-space-twounit);
             position: absolute;
