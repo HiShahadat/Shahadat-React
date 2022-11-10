@@ -22,44 +22,64 @@ const Home = (props) => {
             <img
               alt="pastedImage"
               src="/playground_assets/pro-text-label-for-shahadat.svg"
-              className="home-pasted-image1"
+              className="home-pasted-image01"
             />
           </div>
           <nav className="home-container03">
             <a
-              href="https://example.com"
+              href="https://shahadat.lemonsqueezy.com"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link"
             >
-              <p className="bodyRegular">Shop</p>
+              <div className="home-shop">
+                <img
+                  alt="pastedImage"
+                  src="/playground_assets/pastedimage-o6g.svg"
+                  className="home-pasted-image02"
+                />
+                <p className="bodyRegular">Shop</p>
+              </div>
             </a>
             <a
-              href="https://example.com"
+              href="https://unsplash.com/@hishahadat"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link01"
             >
-              <p className="bodyRegular">Shots</p>
+              <div className="home-shots">
+                <img
+                  alt="pastedImage"
+                  src="/playground_assets/pastedimage-52sb.svg"
+                  className="home-pasted-image03"
+                />
+                <p className="bodyRegular">Shots</p>
+              </div>
             </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link02"
-            >
+            <div className="home-stories">
+              <img
+                alt="pastedImage"
+                src="/playground_assets/pastedimage-1fp.svg"
+                className="home-pasted-image04"
+              />
               <p className="bodyRegular">Stories</p>
-            </a>
+              <span className="home-text03">SOON</span>
+            </div>
             <a
-              href="mailto:shout@shahadat.pro?subject=Hi Shahadat..."
-              className="home-link03 bodyRegular button button-cta"
+              href="mailto:shout@shahadat.pro?subject=Shahadat, we need to talk!"
+              className="home-email bodyRegular button-cta button"
             >
-              shout@shahadat.pro
+              <img
+                alt="pastedImage"
+                src="/playground_assets/pastedimage-rqqr.svg"
+                className="home-pasted-image05"
+              />
+              <span>shout@shahadat.pro</span>
             </a>
           </nav>
         </nav>
         <div className="home-container04">
-          <h1 className="home-text03 hOne">
+          <h1 className="home-text05 hOne">
             <span>I&apos;m Shahadat!</span>
             <br></br>
             <span>Designer. Photographer.</span>
@@ -70,18 +90,18 @@ const Home = (props) => {
           <img
             alt="pastedImage"
             src="/playground_assets/pastedimage-t8qq.svg"
-            className="home-pasted-image2"
+            className="home-pasted-image06"
           />
         </div>
         <section className="home-section-title-sites">
           <img
             alt="pastedImage"
             src="/playground_assets/pastedimage-u6h9vi.svg"
-            className="home-pasted-image3"
+            className="home-pasted-image07"
           />
           <div className="home-container05">
             <div className="home-container06"></div>
-            <h2 className="home-text10 hTwo">Some Things I Made</h2>
+            <h2 className="home-text12 hTwo">Some Things I Made</h2>
             <div className="home-container07"></div>
           </div>
         </section>
@@ -104,13 +124,13 @@ const Home = (props) => {
         <section className="home-section-title-products">
           <div className="home-container08">
             <div className="home-container09"></div>
-            <h2 className="home-text11 hTwo">Some Other Tiny Things</h2>
+            <h2 className="home-text13 hTwo">Some Other Tiny Things</h2>
             <div className="home-container10"></div>
           </div>
           <img
             alt="pastedImage"
             src="/playground_assets/pastedimage-95m.svg"
-            className="home-pasted-image4"
+            className="home-pasted-image08"
           />
         </section>
         <div className="home-container11">
@@ -151,13 +171,13 @@ const Home = (props) => {
         <section className="home-section-title-products1">
           <div className="home-container12">
             <div className="home-container13"></div>
-            <h2 className="home-text12 hTwo">Share Things With Me</h2>
+            <h2 className="home-text14 hTwo">Share Things With Me</h2>
             <div className="home-container14"></div>
           </div>
           <img
             alt="pastedImage"
             src="/playground_assets/pastedimage-eums.svg"
-            className="home-pasted-image5"
+            className="home-pasted-image09"
           />
         </section>
         <div className="home-container15">
@@ -166,12 +186,12 @@ const Home = (props) => {
               href="https://twitter.com/hishahadat"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link07 button button-social"
+              className="home-link05 button-social button"
             >
               <img
                 alt="pastedImage"
                 src="/playground_assets/pastedimage-qvdn.svg"
-                className="home-pasted-image6"
+                className="home-pasted-image10"
               />
               <span className="bodyRegular">HiShahadat</span>
             </a>
@@ -179,7 +199,7 @@ const Home = (props) => {
               href="https://www.producthunt.com/@shemul"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link08 button button-social"
+              className="home-link06 button-social button"
             >
               <img
                 alt="image"
@@ -192,7 +212,7 @@ const Home = (props) => {
               href="https://www.messenger.com/t/HelloShahadat"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link09 button button-social"
+              className="home-link07 button-social button"
             >
               <img
                 alt="image"
@@ -205,7 +225,7 @@ const Home = (props) => {
               href="https://t.me/hishahadat"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link10 button button-social"
+              className="home-link08 button-social button"
             >
               <img
                 alt="image"
@@ -218,7 +238,7 @@ const Home = (props) => {
               href="https://www.instagram.com/hishahadat/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link11 button bodyRegular button-social"
+              className="home-link09 button-social bodyRegular button"
             >
               <img
                 alt="image"
@@ -230,7 +250,7 @@ const Home = (props) => {
           </div>
           <a
             href="mailto:shout@shahadat.pro?subject=Hi Shahadat..."
-            className="home-link12 bodyRegular button button-cta"
+            className="home-link10 bodyRegular button-cta button"
           >
             shout@shahadat.pro
           </a>
@@ -273,7 +293,7 @@ const Home = (props) => {
             width: 145px;
             height: 24px;
           }
-          .home-pasted-image1 {
+          .home-pasted-image01 {
             top: -6px;
             right: -18px;
             width: 22px;
@@ -289,17 +309,74 @@ const Home = (props) => {
           .home-link {
             display: contents;
           }
+          .home-shop {
+            gap: var(--dl-space-space-threequarter);
+            display: flex;
+            align-items: center;
+            padding-top: 0px;
+            padding-left: var(--dl-space-space-threequarter);
+            padding-right: var(--dl-space-space-threequarter);
+            padding-bottom: 0px;
+            text-decoration: none;
+          }
+          .home-pasted-image02 {
+            width: 24px;
+            height: 24px;
+          }
           .home-link01 {
             display: contents;
           }
-          .home-link02 {
-            display: contents;
+          .home-shots {
+            gap: var(--dl-space-space-threequarter);
+            display: flex;
+            align-items: center;
+            padding-top: 0px;
+            padding-left: var(--dl-space-space-threequarter);
+            padding-right: var(--dl-space-space-threequarter);
+            padding-bottom: 0px;
+            text-decoration: none;
           }
-          .home-link03 {
+          .home-pasted-image03 {
+            width: 24px;
+            height: 24px;
+          }
+          .home-stories {
+            gap: var(--dl-space-space-threequarter);
+            display: flex;
+            position: relative;
+            align-items: center;
+            padding-top: 0px;
+            padding-left: var(--dl-space-space-threequarter);
+            padding-right: var(--dl-space-space-threequarter);
+            padding-bottom: 0px;
+          }
+          .home-pasted-image04 {
+            width: 24px;
+            height: 25px;
+          }
+          .home-text03 {
+            top: 0px;
+            right: 0px;
+            opacity: 0.5;
+            position: absolute;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 100%;
+          }
+          .home-email {
+            display: flex;
+            margin-left: var(--dl-space-space-threequarter);
             padding-top: var(--dl-space-space-oneandhalfunit);
             padding-left: var(--dl-space-space-threeunit);
             padding-right: var(--dl-space-space-threeunit);
+            flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunit);
+            text-decoration: none;
+          }
+          .home-pasted-image05 {
+            width: 25px;
+            height: 24px;
           }
           .home-container04 {
             flex: 0 0 auto;
@@ -308,24 +385,34 @@ const Home = (props) => {
             display: flex;
             position: relative;
             max-width: var(--dl-size-size-mainwidth);
+            margin-top: var(--dl-space-space-sixunit);
             align-items: center;
-            padding-top: var(--dl-space-space-sixunit);
-            padding-left: 0px;
-            padding-right: 0px;
+            padding-top: var(--dl-space-space-eightunit);
+            padding-left: var(--dl-space-space-twounit);
+            padding-right: var(--dl-space-space-twounit);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-twentyunit);
             justify-content: center;
           }
-          .home-text03 {
-            width: 1392px;
-            bottom: var(--dl-space-space-twounit);
-            position: absolute;
+          .home-text05 {
+            width: 100%;
+            z-index: 2;
+            align-self: center;
             font-style: normal;
             text-align: center;
+            padding-top: var(--dl-space-space-twounit);
+            padding-bottom: var(--dl-space-space-twounit);
           }
-          .home-pasted-image2 {
-            width: 662px;
-            height: 258px;
+          .home-pasted-image06 {
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: auto;
+            z-index: 1;
+            position: absolute;
+            max-width: 662px;
+            margin-left: auto;
+            margin-right: auto;
           }
           .home-section-title-sites {
             width: 100%;
@@ -337,7 +424,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-oneunit);
           }
-          .home-pasted-image3 {
+          .home-pasted-image07 {
             width: 566px;
             height: 258px;
           }
@@ -367,7 +454,7 @@ const Home = (props) => {
             background-size: 12px 1px;
             background-repeat: repeat-x;
           }
-          .home-text10 {
+          .home-text12 {
             padding-top: var(--dl-space-space-half);
             padding-bottom: var(--dl-space-space-half);
           }
@@ -432,7 +519,7 @@ const Home = (props) => {
             background-size: 12px 1px;
             background-repeat: repeat-x;
           }
-          .home-text11 {
+          .home-text13 {
             padding-top: var(--dl-space-space-half);
             padding-bottom: var(--dl-space-space-half);
           }
@@ -451,7 +538,7 @@ const Home = (props) => {
             background-size: 12px 1px;
             background-repeat: repeat-x;
           }
-          .home-pasted-image4 {
+          .home-pasted-image08 {
             width: 748px;
             height: 258px;
           }
@@ -510,7 +597,7 @@ const Home = (props) => {
             background-size: 12px 1px;
             background-repeat: repeat-x;
           }
-          .home-text12 {
+          .home-text14 {
             padding-top: var(--dl-space-space-half);
             padding-bottom: var(--dl-space-space-half);
           }
@@ -529,7 +616,7 @@ const Home = (props) => {
             background-size: 12px 1px;
             background-repeat: repeat-x;
           }
-          .home-pasted-image5 {
+          .home-pasted-image09 {
             width: 598px;
             height: 258px;
           }
@@ -554,15 +641,15 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-link07 {
+          .home-link05 {
             border-color: #1da1f2;
             text-decoration: none;
           }
-          .home-pasted-image6 {
+          .home-pasted-image10 {
             width: 25px;
             height: 24px;
           }
-          .home-link08 {
+          .home-link06 {
             border-color: #da552f;
             text-decoration: none;
           }
@@ -571,7 +658,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-link09 {
+          .home-link07 {
             border-image: linear-gradient(
                 264deg,
                 #ff656d 0%,
@@ -586,7 +673,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-link10 {
+          .home-link08 {
             border-color: #29aaec;
             text-decoration: none;
           }
@@ -595,7 +682,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-link11 {
+          .home-link09 {
             gap: var(--dl-space-space-threequarter);
             border-image: linear-gradient(
                 264deg,
@@ -612,7 +699,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-link12 {
+          .home-link10 {
             width: 100%;
             padding-top: var(--dl-space-space-oneandhalfunit);
             padding-left: var(--dl-space-space-threeunit);
@@ -639,6 +726,14 @@ const Home = (props) => {
           @media (max-width: 479px) {
             .home-container {
               padding: var(--dl-space-space-oneandhalfunit);
+            }
+            .home-container04 {
+              padding-left: 0px;
+            }
+            .home-text05 {
+              font-size: 48px;
+              line-height: 125%;
+              letter-spacing: -1px;
             }
           }
         `}

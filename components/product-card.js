@@ -7,8 +7,8 @@ const ProductCard = (props) => {
     <>
       <div className="product-card-container">
         <img
-          src={props.image_src}
           alt={props.image_alt}
+          src={props.image_src}
           className="product-card-image"
         />
         <h4 className="hFour">{props.product_name}</h4>

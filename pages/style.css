@@ -156,12 +156,30 @@
   text-transform: none;
   text-decoration: none;
 }
+.hOneM {
+  font-size: 48px;
+  font-family: Figtree;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.5px;
+  text-transform: none;
+  text-decoration: none;
+}
 .ContentBold {
   font-size: 22px;
   font-family: Figtree;
   font-weight: 700;
   line-height: 1.64;
   letter-spacing: -0.5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.hFour {
+  font-size: 24px;
+  font-family: Figtree;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: px;
   text-transform: none;
   text-decoration: none;
 }
@@ -179,15 +197,6 @@
   font-family: Figtree;
   font-weight: 300;
   line-height: 150%;
-  letter-spacing: px;
-  text-transform: none;
-  text-decoration: none;
-}
-.hFour {
-  font-size: 24px;
-  font-family: Figtree;
-  font-weight: 700;
-  line-height: 1.25;
   letter-spacing: px;
   text-transform: none;
   text-decoration: none;
