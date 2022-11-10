@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import SiteInfo from '../components/site-info'
+import ProductCard from '../components/product-card'
 
 const Home = (props) => {
   return (
@@ -37,7 +38,7 @@ const Home = (props) => {
               href="https://example.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link1"
+              className="home-link01"
             >
               <p className="bodyRegular">Shots</p>
             </a>
@@ -45,13 +46,13 @@ const Home = (props) => {
               href="https://example.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link2"
+              className="home-link02"
             >
               <p className="bodyRegular">Stories</p>
             </a>
             <a
               href="mailto:shout@shahadat.pro?subject=Hi Shahadat..."
-              className="home-link3 bodyRegular button"
+              className="home-link03 bodyRegular button button-cta"
             >
               shout@shahadat.pro
             </a>
@@ -112,11 +113,46 @@ const Home = (props) => {
             className="home-pasted-image4"
           />
         </section>
+        <div className="home-container11">
+          <a
+            href="https://creativemarket.com/Vackground/3995334-Artless-Handwritten-Font"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <ProductCard
+              image_src="/playground_assets/artless-cover-image-400h.jpg"
+              product_name="Artless - Handwritten Font (Soon)"
+              className="home-component3"
+            ></ProductCard>
+          </a>
+          <a
+            href="https://creativemarket.com/Vackground/4581272-Qronik-Geometric-Display-Font"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <ProductCard
+              image_src="/playground_assets/qronik%20display%20font%20artistic%20cover-400h.jpg"
+              product_name="Qronik - Geometric Display Font (Soon)"
+              className="home-component4"
+            ></ProductCard>
+          </a>
+          <a
+            href="https://creativemarket.com/Vackground/5290365-Political-World-Map-Countries"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <ProductCard
+              image_src="/playground_assets/world%20map%20countries%20cover-400h.jpg"
+              product_name="World Map - Light &amp; Dark (Soon)"
+              className="home-component5"
+            ></ProductCard>
+          </a>
+        </div>
         <section className="home-section-title-products1">
-          <div className="home-container11">
-            <div className="home-container12"></div>
-            <h2 className="home-text12 hTwo">Share Things With Me</h2>
+          <div className="home-container12">
             <div className="home-container13"></div>
+            <h2 className="home-text12 hTwo">Share Things With Me</h2>
+            <div className="home-container14"></div>
           </div>
           <img
             alt="pastedImage"
@@ -124,57 +160,82 @@ const Home = (props) => {
             className="home-pasted-image5"
           />
         </section>
-        <div className="home-container14">
-          <div className="home-container15">
-            <button className="home-button button bodyRegular social-button">
+        <div className="home-container15">
+          <div className="home-container16">
+            <a
+              href="https://twitter.com/hishahadat"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link07 button button-social"
+            >
               <img
-                src="/playground_assets/pastedimage-bgp.svg"
+                alt="pastedImage"
+                src="/playground_assets/pastedimage-qvdn.svg"
+                className="home-pasted-image6"
+              />
+              <span className="bodyRegular">HiShahadat</span>
+            </a>
+            <a
+              href="https://www.producthunt.com/@shemul"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link08 button button-social"
+            >
+              <img
                 alt="image"
+                src="/playground_assets/pastedimage-3nmf.svg"
                 className="home-image"
               />
-              <span>HiShahadat</span>
-            </button>
-            <button className="home-button1 button bodyRegular social-button">
+              <span className="bodyRegular">Shemul</span>
+            </a>
+            <a
+              href="https://www.messenger.com/t/HelloShahadat"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link09 button button-social"
+            >
               <img
-                src="/playground_assets/pastedimage-bgp.svg"
                 alt="image"
+                src="/playground_assets/pastedimage-zu2u.svg"
                 className="home-image1"
               />
-              <span>Shemul</span>
-            </button>
-            <button className="home-button2 button bodyRegular social-button">
+              <span className="bodyRegular">HelloShahadat</span>
+            </a>
+            <a
+              href="https://t.me/hishahadat"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link10 button button-social"
+            >
               <img
-                src="/playground_assets/pastedimage-bgp.svg"
                 alt="image"
+                src="/playground_assets/pastedimage-c7cd.svg"
                 className="home-image2"
               />
-              <span>HelloShahadat</span>
-            </button>
-            <button className="home-button3 button bodyRegular social-button">
+              <span className="bodyRegular">HiShahadat</span>
+            </a>
+            <a
+              href="https://www.instagram.com/hishahadat/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link11 button bodyRegular button-social"
+            >
               <img
-                src="/playground_assets/pastedimage-bgp.svg"
                 alt="image"
+                src="/playground_assets/pastedimage-bgp.svg"
                 className="home-image3"
               />
               <span>HiShahadat</span>
-            </button>
-            <button className="home-button4 button bodyRegular social-button">
-              <img
-                src="/playground_assets/pastedimage-bgp.svg"
-                alt="image"
-                className="home-image4"
-              />
-              <span>HiShahadat</span>
-            </button>
+            </a>
           </div>
           <a
             href="mailto:shout@shahadat.pro?subject=Hi Shahadat..."
-            className="home-link4 bodyRegular button"
+            className="home-link12 bodyRegular button button-cta"
           >
             shout@shahadat.pro
           </a>
         </div>
-        <footer className="home-container16">
+        <footer className="home-container17">
           <span className="bodyRegular">© 2022, Shahadat.Pro</span>
         </footer>
       </div>
@@ -228,13 +289,13 @@ const Home = (props) => {
           .home-link {
             display: contents;
           }
-          .home-link1 {
+          .home-link01 {
             display: contents;
           }
-          .home-link2 {
+          .home-link02 {
             display: contents;
           }
-          .home-link3 {
+          .home-link03 {
             padding-top: var(--dl-space-space-oneandhalfunit);
             padding-left: var(--dl-space-space-threeunit);
             padding-right: var(--dl-space-space-threeunit);
@@ -394,6 +455,25 @@ const Home = (props) => {
             width: 748px;
             height: 258px;
           }
+          .home-container11 {
+            width: 100%;
+            display: grid;
+            grid-gap: var(--dl-space-space-fourunit);
+            max-width: var(--dl-size-size-mainwidth);
+            margin-top: var(--dl-space-space-eightunit);
+            padding-left: var(--dl-space-space-twounit);
+            padding-right: var(--dl-space-space-twounit);
+            grid-template-columns: repeat(3, 480px);
+          }
+          .home-component3 {
+            text-decoration: none;
+          }
+          .home-component4 {
+            text-decoration: none;
+          }
+          .home-component5 {
+            text-decoration: none;
+          }
           .home-section-title-products1 {
             width: 100%;
             display: flex;
@@ -404,7 +484,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-oneunit);
           }
-          .home-container11 {
+          .home-container12 {
             gap: var(--dl-space-space-twounit);
             left: 0px;
             width: 100%;
@@ -415,7 +495,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-container12 {
+          .home-container13 {
             flex: 1;
             width: auto;
             height: 1px;
@@ -434,7 +514,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-half);
             padding-bottom: var(--dl-space-space-half);
           }
-          .home-container13 {
+          .home-container14 {
             flex: 1;
             width: auto;
             height: 1px;
@@ -453,7 +533,7 @@ const Home = (props) => {
             width: 598px;
             height: 258px;
           }
-          .home-container14 {
+          .home-container15 {
             gap: var(--dl-space-space-twounit);
             flex: 0 0 auto;
             width: 100%;
@@ -465,66 +545,57 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-container15 {
+          .home-container16 {
             gap: var(--dl-space-space-twounit);
             flex: 0 0 auto;
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
+            justify-content: center;
           }
-          .home-button {
-            gap: var(--dl-space-space-threequarter);
-            border-image: linear-gradient(
-                264deg,
-                #d300c5 0%,
-                #ff1f4e 50%,
-                #ffc400 100%
-              )
-              1;
-            border-width: 1px;
-            background-color: transparent;
+          .home-link07 {
+            border-color: #1da1f2;
+            text-decoration: none;
+          }
+          .home-pasted-image6 {
+            width: 25px;
+            height: 24px;
+          }
+          .home-link08 {
+            border-color: #da552f;
+            text-decoration: none;
           }
           .home-image {
             width: 24px;
             height: 24px;
             object-fit: cover;
           }
-          .home-button1 {
-            gap: var(--dl-space-space-threequarter);
+          .home-link09 {
             border-image: linear-gradient(
                 264deg,
-                #d300c5 0%,
-                #ff1f4e 50%,
-                #ffc400 100%
+                #ff656d 0%,
+                #ca40c6 50%,
+                #267ffe 100%
               )
               1;
-            border-width: 1px;
-            background-color: transparent;
+            text-decoration: none;
           }
           .home-image1 {
             width: 24px;
             height: 24px;
             object-fit: cover;
           }
-          .home-button2 {
-            gap: var(--dl-space-space-threequarter);
-            border-image: linear-gradient(
-                264deg,
-                #d300c5 0%,
-                #ff1f4e 50%,
-                #ffc400 100%
-              )
-              1;
-            border-width: 1px;
-            background-color: transparent;
+          .home-link10 {
+            border-color: #29aaec;
+            text-decoration: none;
           }
           .home-image2 {
             width: 24px;
             height: 24px;
             object-fit: cover;
           }
-          .home-button3 {
+          .home-link11 {
             gap: var(--dl-space-space-threequarter);
             border-image: linear-gradient(
                 264deg,
@@ -533,7 +604,7 @@ const Home = (props) => {
                 #ffc400 100%
               )
               1;
-            border-width: 1px;
+            text-decoration: none;
             background-color: transparent;
           }
           .home-image3 {
@@ -541,24 +612,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-button4 {
-            gap: var(--dl-space-space-threequarter);
-            border-image: linear-gradient(
-                264deg,
-                #d300c5 0%,
-                #ff1f4e 50%,
-                #ffc400 100%
-              )
-              1;
-            border-width: 1px;
-            background-color: transparent;
-          }
-          .home-image4 {
-            width: 24px;
-            height: 24px;
-            object-fit: cover;
-          }
-          .home-link4 {
+          .home-link12 {
             width: 100%;
             padding-top: var(--dl-space-space-oneandhalfunit);
             padding-left: var(--dl-space-space-threeunit);
@@ -566,7 +620,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-oneandhalfunit);
             justify-content: center;
           }
-          .home-container16 {
+          .home-container17 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;

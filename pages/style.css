@@ -43,19 +43,7 @@
   --dl-space-space-oneandhalfunit: 1.5rem;
   --dl-radius-radius-round-regular: 8px;
 }
-.button {
-  color: var(--dl-color-ui-0);
-  display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-oneandhalfunit);
-  padding-left: var(--dl-space-space-threeunit);
-  padding-right: var(--dl-space-space-threeunit);
-  padding-bottom: var(--dl-space-space-oneandhalfunit);
-  background-color: var(--dl-color-primary-500);
-}
-.button:hover {
-  background-color: var(--dl-color-secondary-500);
-}
+
 .input {
   color: var(--dl-color-ui-richdarkblue);
   cursor: auto;
@@ -116,10 +104,29 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunit);
 }
-.social-button {
-  flex: 1;
+.button-cta {
+  gap: var(--dl-space-space-threequarter);
+  color: var(--dl-color-ui-0);
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunit);
+  padding-left: var(--dl-space-space-threeunit);
+  padding-right: var(--dl-space-space-threeunit);
+  padding-bottom: var(--dl-space-space-oneandhalfunit);
+  background-color: var(--dl-color-primary-500);
+}
+.button-social {
+  gap: var(--dl-space-space-threequarter);
+  flex: 1 1 100%;
+  color: var(--dl-color-ui-0);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunit);
+  border-color: var(--dl-color-primary-500);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-oneandhalfunit);
+  padding-right: var(--dl-space-space-oneandhalfunit);
+  padding-bottom: var(--dl-space-space-oneandhalfunit);
   justify-content: center;
 }
 .hTwo {
@@ -172,6 +179,15 @@
   font-family: Figtree;
   font-weight: 300;
   line-height: 150%;
+  letter-spacing: px;
+  text-transform: none;
+  text-decoration: none;
+}
+.hFour {
+  font-size: 24px;
+  font-family: Figtree;
+  font-weight: 700;
+  line-height: 1.25;
   letter-spacing: px;
   text-transform: none;
   text-decoration: none;
