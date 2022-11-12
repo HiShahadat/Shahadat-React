@@ -5,17 +5,17 @@ import PropTypes from 'prop-types'
 const SiteInfo = (props) => {
   return (
     <>
-      <div className="site-info-site-info site-info">
+      <div className="site-info site-info-site-info">
         <div className="site-info-container">
           <div className="site-info-container1">
-            <h2 className="hTwo">{props.site_name}</h2>
+            <h2 className="site-info-text hTwo">{props.site_name}</h2>
             <img
               alt={props.arrow_new_tab}
               src="/playground_assets/big-arrow-top-right-white.svg"
               className="site-info-pasted-image arrow-tab"
             />
           </div>
-          <span className="bodyLarge">{props.site_desc}</span>
+          <span className="site-info-text1 bodyLarge">{props.site_desc}</span>
         </div>
         <img
           alt={props.pastedImage_alt}
@@ -25,10 +25,6 @@ const SiteInfo = (props) => {
       </div>
       <style jsx>
         {`
-          .site-info-site-info {
-            transition: 0.3s;
-          }
-
           .site-info-container {
             gap: var(--dl-space-space-twounit);
             width: 100%;
@@ -42,12 +38,30 @@ const SiteInfo = (props) => {
             align-items: center;
             flex-direction: row;
           }
+          .site-info-text {
+            color: var(--dl-color-ui-0);
+          }
           .site-info-pasted-image {
             display: none;
+          }
+          .site-info-text1 {
+            color: var(--dl-color-ui-0);
           }
           .site-info-pasted-image1 {
             width: 320px;
             height: 320px;
+            max-width: 100%;
+            max-height: 100%;
+          }
+          @media (max-width: 479px) {
+            .site-info-text {
+              font-size: 32px;
+              letter-spacing: -1px;
+            }
+            .site-info-text1 {
+              font-size: 18px;
+              letter-spacing: 0px;
+            }
           }
         `}
       </style>

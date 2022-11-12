@@ -27,18 +27,25 @@ class CustomDocument extends Document {
           ></style>
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-            data-tag="font"
-          ></link>
-          <link
-            rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
           ></link>
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html:
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> --><noscript>',
+            }}
+          ></noscript>
         </Head>
         <body>
           <Main></Main>
           <NextScript></NextScript>
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                "<!-- Your body code here -->\n<!-- <script type=\"text/javascript\"> ... </script> --> \n    <script data-section-id='navbar' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+            }}
+          ></div>
         </body>
       </Html>
     )
