@@ -84,8 +84,6 @@
 .site-info {
   display: flex;
   position: relative;
-  flex-flow: row wrap-reverse;
-  flex-wrap: wrap-reverse;
   align-self: stretch;
   transition: .3s ease-out;
   align-items: center;
@@ -210,5 +208,9 @@
 }
 
 
-
+@media(max-width: 767px) {
+  .site-info {
+    flex-wrap: wrap-reverse;
+  }
+}
 

@@ -27,7 +27,6 @@ const SiteInfo = (props) => {
         {`
           .site-info-container {
             gap: var(--dl-space-space-twounit);
-            width: 100%;
             display: flex;
             align-items: stretch;
             flex-direction: column;
@@ -50,8 +49,15 @@ const SiteInfo = (props) => {
           .site-info-pasted-image1 {
             width: 320px;
             height: 320px;
-            max-width: 100%;
-            max-height: 100%;
+          }
+          @media (max-width: 767px) {
+            .site-info-container {
+              width: 100%;
+              align-items: center;
+            }
+            .site-info-pasted-image1 {
+              max-height: auto;
+            }
           }
           @media (max-width: 479px) {
             .site-info-text {

@@ -863,6 +863,8 @@ const Home = (props) => {
             max-width: 1296px;
             margin-top: var(--dl-space-space-sixunit);
             align-items: center;
+            padding-left: var(--dl-space-space-twounit);
+            padding-right: var(--dl-space-space-twounit);
             flex-direction: column;
             justify-content: center;
           }
@@ -976,10 +978,12 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-navbar-interactive {
+              margin-top: var(--dl-space-space-oneandhalfunit);
               padding-left: var(--dl-space-space-oneandhalfunit);
               padding-right: var(--dl-space-space-oneandhalfunit);
             }
             .home-container02 {
+              margin-top: var(--dl-space-space-threeunit);
               padding-left: var(--dl-space-space-oneandhalfunit);
               padding-right: var(--dl-space-space-oneandhalfunit);
             }
@@ -993,9 +997,18 @@ const Home = (props) => {
               line-height: 125%;
               letter-spacing: -1px;
             }
+            .home-section-title-sites {
+              margin-top: var(--dl-space-space-threeunit);
+            }
             .home-text17 {
               font-size: 32px;
               letter-spacing: -1px;
+            }
+            .home-sites {
+              margin-top: var(--dl-space-space-threeunit);
+            }
+            .home-container14 {
+              flex-wrap: wrap;
             }
           }
         `}
