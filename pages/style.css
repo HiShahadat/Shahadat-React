@@ -82,6 +82,7 @@
   height: 96px;
 }
 .site-info {
+  height: 100%;
   display: flex;
   position: relative;
   align-self: stretch;

@@ -49,17 +49,17 @@ const SiteInfo = (props) => {
           .site-info-pasted-image1 {
             width: 320px;
             height: 320px;
+            aspect-ratio: 1;
           }
           @media (max-width: 767px) {
             .site-info-container {
               width: 100%;
-              align-items: center;
-            }
-            .site-info-pasted-image1 {
-              max-height: auto;
             }
           }
           @media (max-width: 479px) {
+            .site-info-container {
+              gap: var(--dl-space-space-half);
+            }
             .site-info-text {
               font-size: 32px;
               letter-spacing: -1px;
@@ -67,6 +67,10 @@ const SiteInfo = (props) => {
             .site-info-text1 {
               font-size: 18px;
               letter-spacing: 0px;
+            }
+            .site-info-pasted-image1 {
+              width: 160;
+              height: 160;
             }
           }
         `}
