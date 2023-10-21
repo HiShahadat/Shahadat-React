@@ -20,7 +20,7 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: Figtree;\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 300;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: px;\n    line-height: 150%;\n    color: var(--dl-color-ui-richdarkblue);\n    background-color: var(--dl-color-ui-0);\n    \n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: "Uncut Sans Regular";\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 300;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: px;\n    line-height: 150%;\n    color: var(--dl-color-ui-richdarkblue);\n    background-color: var(--dl-color-ui-0);\n    \n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>
@@ -32,7 +32,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> --><noscript>',
+                '</noscript><!--This is the head section-->\n<style>\nh1, h2, h3, h4, h5, h6, p { font-feature-settings: "ss02", "ss07" on;}    \n</style><noscript>',
             }}
           ></noscript>
         </Head>

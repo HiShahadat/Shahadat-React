@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Uncut Sans Bold";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 700;
+  src: url("/fonts/uncutsans-bold.woff2") ;
+}
+@font-face {
+  font-family: "Uncut Sans Regular";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 400;
+  src: url("/fonts/uncutsans-regular.woff2") ;
+}
 :root {
   --dl-color-ui-0: #FFFFFF;
   --dl-color-ui-500: #595959;
@@ -135,9 +149,12 @@
   padding-bottom: var(--dl-space-space-oneandhalfunit);
   justify-content: center;
 }
+.ss {
+  font-feature-settings: "ss02", "ss07" on;
+}
 .hTwo {
   font-size: 80px;
-  font-family: Figtree;
+  font-family: "Uncut Sans Bold";
   font-weight: 700;
   line-height: 1;
   letter-spacing: -3px;
@@ -145,17 +162,16 @@
   text-decoration: none;
 }
 .bodyRegular {
-  font-size: 22px;
-  font-family: Figtree;
-  font-weight: 300;
+  font-size: 20px;
+  font-family: "Uncut Sans Regular";
+  font-weight: 400;
   line-height: 164%;
   letter-spacing: -0.5px;
   text-transform: none;
-  text-decoration: none;
 }
 .hOne {
-  font-size: 128px;
-  font-family: Figtree;
+  font-size: 104px;
+  font-family: "Uncut Sans Bold";
   font-weight: 700;
   line-height: 1;
   letter-spacing: -5px;
@@ -164,7 +180,7 @@
 }
 .hOneM {
   font-size: 48px;
-  font-family: Figtree;
+  font-family: "Uncut Sans Bold";
   font-weight: 700;
   line-height: 150%;
   letter-spacing: -0.5px;
@@ -173,7 +189,7 @@
 }
 .ContentBold {
   font-size: 22px;
-  font-family: Figtree;
+  font-family: "Uncut Sans Bold";
   font-weight: 700;
   line-height: 1.64;
   letter-spacing: -0.5px;
@@ -182,7 +198,7 @@
 }
 .hFour {
   font-size: 24px;
-  font-family: Figtree;
+  font-family: "Uncut Sans Bold";
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: px;
@@ -191,8 +207,8 @@
 }
 .bodyLarge {
   font-size: 32px;
-  font-family: Figtree;
-  font-weight: 300;
+  font-family: "Uncut Sans Regular";
+  font-weight: 400;
   line-height: 150%;
   letter-spacing: -1px;
   text-transform: none;
@@ -200,7 +216,7 @@
 }
 .Content {
   font-size: 16px;
-  font-family: Figtree;
+  font-family: "Uncut Sans Regular";
   font-weight: 300;
   line-height: 150%;
   letter-spacing: px;

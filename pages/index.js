@@ -171,7 +171,7 @@ const Home = (props) => {
             src="/external/pastedimage-h3ch.svg"
             className="home-pasted-image14"
           />
-          <h1 className="home-text10 hOne">
+          <h1 className="home-text10 hOne ss">
             <span>I&apos;m Shahadat!</span>
             <br></br>
             <span>Designer. Photographer.</span>
@@ -315,7 +315,7 @@ const Home = (props) => {
           </a>
         </div>
         <footer className="home-container12">
-          <span className="bodyRegular">© 2022, Shahadat.Pro</span>
+          <p className="home-text24">© 2022, Shahadat.Pro</p>
         </footer>
       </div>
       <style jsx>
@@ -848,15 +848,16 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
+          .home-text24 {
+            font-size: 20px;
+            font-family: 'Figtree';
+            font-weight: 400;
+            line-height: 164%;
+            text-transform: none;
+          }
           @media (max-width: 1200px) {
             .home-email {
               display: none;
-            }
-          }
-          @media (max-width: 991px) {
-            .home-text10 {
-              font-size: 64px;
-              letter-spacing: -2px;
             }
           }
           @media (max-width: 767px) {
@@ -880,13 +881,6 @@ const Home = (props) => {
             }
             .home-pasted-image14 {
               margin-bottom: -2rem;
-            }
-            .home-text10 {
-              padding: 0;
-              font-size: 40px;
-              text-align: left;
-              line-height: 125%;
-              letter-spacing: -1px;
             }
             .home-container06 {
               grid-template-columns: repeat(1, 100%);
