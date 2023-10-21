@@ -11,7 +11,7 @@ const SiteInfo = (props) => {
             <h2 className="site-info-text hTwo">{props.site_name}</h2>
             <img
               alt={props.arrow_new_tab}
-              src="/playground_assets/big-arrow-top-right-white.svg"
+              src="/icons/big-arrow-top-right-white.svg"
               className="site-info-pasted-image arrow-tab"
             />
           </div>
@@ -80,7 +80,7 @@ const SiteInfo = (props) => {
 }
 
 SiteInfo.defaultProps = {
-  site_logo: '/playground_assets/vackground-dashed-logo.svg',
+  site_logo: '/Logos/vackground-dashed-logo.svg',
   arrow_new_tab: 'pastedImage',
   site_desc: 'Lorem ipsum dolor site amet!',
   site_name: 'Website',

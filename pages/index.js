@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-import SiteInfo from '../components/site-info'
 import ProductCard from '../components/product-card'
 
 const Home = (props) => {
@@ -16,12 +15,12 @@ const Home = (props) => {
           <div className="home-shahadat-pro-logo">
             <img
               alt="Shahadat Pro Logo"
-              src="/playground_assets/shahadat-pro-logo-white.svg"
+              src="/Logos/shahadat-pro-logo-white.svg"
               className="home-pasted-image"
             />
             <img
               alt="pastedImage"
-              src="/playground_assets/pro-text-label-for-shahadat.svg"
+              src="/Logos/pro-text-label-for-shahadat.svg"
               className="home-pasted-image01"
             />
           </div>
@@ -35,7 +34,7 @@ const Home = (props) => {
               <div className="home-shop">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/pastedimage-o6g.svg"
+                  src="/external/pastedimage-o6g.svg"
                   className="home-pasted-image02"
                 />
                 <p className="bodyRegular">Shop</p>
@@ -50,7 +49,7 @@ const Home = (props) => {
               <div className="home-shots">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/pastedimage-52sb.svg"
+                  src="/external/pastedimage-52sb.svg"
                   className="home-pasted-image03"
                 />
                 <p className="bodyRegular">Shots</p>
@@ -59,7 +58,7 @@ const Home = (props) => {
             <div className="home-stories">
               <img
                 alt="pastedImage"
-                src="/playground_assets/pastedimage-1fp.svg"
+                src="/external/pastedimage-1fp.svg"
                 className="home-pasted-image04"
               />
               <p className="bodyRegular">Stories</p>
@@ -71,7 +70,7 @@ const Home = (props) => {
             >
               <img
                 alt="pastedImage"
-                src="/playground_assets/pastedimage-rqqr.svg"
+                src="/external/pastedimage-rqqr.svg"
                 className="home-pasted-image05"
               />
               <span>shout@shahadat.pro</span>
@@ -80,7 +79,7 @@ const Home = (props) => {
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <img
               alt="pastedImage"
-              src="/playground_assets/pastedimage-1fm.svg"
+              src="/external/pastedimage-1fm.svg"
               className="home-pasted-image06"
             />
           </div>
@@ -94,19 +93,19 @@ const Home = (props) => {
                 <div className="home-shahadat-pro-logo1">
                   <img
                     alt="Shahadat Pro Logo"
-                    src="/playground_assets/shahadat-pro-logo-white.svg"
+                    src="/Logos/shahadat-pro-logo-white.svg"
                     className="home-pasted-image07"
                   />
                   <img
                     alt="pastedImage"
-                    src="/playground_assets/pro-text-label-for-shahadat.svg"
+                    src="/Logos/pro-text-label-for-shahadat.svg"
                     className="home-pasted-image08"
                   />
                 </div>
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <img
                     alt="pastedImage"
-                    src="/playground_assets/pastedimage-cu8i.svg"
+                    src="/external/pastedimage-cu8i.svg"
                     className="home-pasted-image09"
                   />
                 </div>
@@ -121,7 +120,7 @@ const Home = (props) => {
                   <div className="home-shop1">
                     <img
                       alt="pastedImage"
-                      src="/playground_assets/pastedimage-o6g.svg"
+                      src="/external/pastedimage-o6g.svg"
                       className="home-pasted-image10"
                     />
                     <p className="bodyRegular">Shop</p>
@@ -136,7 +135,7 @@ const Home = (props) => {
                   <div className="home-shots1">
                     <img
                       alt="pastedImage"
-                      src="/playground_assets/pastedimage-52sb.svg"
+                      src="/external/pastedimage-52sb.svg"
                       className="home-pasted-image11"
                     />
                     <p className="bodyRegular">Shots</p>
@@ -145,7 +144,7 @@ const Home = (props) => {
                 <div className="home-stories1">
                   <img
                     alt="pastedImage"
-                    src="/playground_assets/pastedimage-1fp.svg"
+                    src="/external/pastedimage-1fp.svg"
                     className="home-pasted-image12"
                   />
                   <p className="bodyRegular">Stories</p>
@@ -158,7 +157,7 @@ const Home = (props) => {
               >
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/pastedimage-rqqr.svg"
+                  src="/external/pastedimage-rqqr.svg"
                   className="home-pasted-image13"
                 />
                 <span>shout@shahadat.pro</span>
@@ -169,7 +168,7 @@ const Home = (props) => {
         <div className="home-container02">
           <img
             alt="pastedImage"
-            src="/playground_assets/pastedimage-h3ch.svg"
+            src="/external/pastedimage-h3ch.svg"
             className="home-pasted-image14"
           />
           <h1 className="home-text10 hOne">
@@ -181,72 +180,28 @@ const Home = (props) => {
             <br></br>
           </h1>
         </div>
-        <section className="home-section-title-sites">
-          <img
-            alt="pastedImage"
-            src="/playground_assets/pastedimage-u6h9vi.svg"
-            className="home-pasted-image15"
-          />
+        <section className="home-section-title-products">
           <div className="home-container03">
             <div className="home-container04"></div>
-            <h2 className="home-text17 hTwo">Some Things I Made</h2>
+            <h2 className="home-text17 hTwo">Some Other Tiny Things</h2>
             <div className="home-container05"></div>
-          </div>
-        </section>
-        <div className="home-sites">
-          <a
-            href="https://vackground.com/"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="home-link04"
-          >
-            <SiteInfo
-              site_desc="Vector graphics, surface patterns, textures to decorate your surroundings."
-              site_name="Vackground"
-              className="home-component"
-            ></SiteInfo>
-          </a>
-          <a
-            href="https://gradienta.io/"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="home-link05"
-          >
-            <SiteInfo
-              site_desc="Multi-layered CSS gradients and backgrounds to make your webpage light."
-              site_logo="/playground_assets/gradienta-dashed-logo.svg"
-              site_name="Gradienta"
-              className="home-component1"
-            ></SiteInfo>
-          </a>
-          <SiteInfo
-            site_desc="Coming Soon...!"
-            site_logo="/playground_assets/whaticons-dashed-logo.svg"
-            site_name="What..."
-          ></SiteInfo>
-        </div>
-        <section className="home-section-title-products">
-          <div className="home-container06">
-            <div className="home-container07"></div>
-            <h2 className="home-text18 hTwo">Some Other Tiny Things</h2>
-            <div className="home-container08"></div>
           </div>
           <img
             alt="pastedImage"
-            src="/playground_assets/pastedimage-95m.svg"
-            className="home-pasted-image16"
+            src="/external/pastedimage-95m.svg"
+            className="home-pasted-image15"
           />
         </section>
-        <div className="home-container09">
+        <div className="home-container06">
           <a
             href="https://creativemarket.com/Vackground/3995334-Artless-Handwritten-Font"
             target="_blank"
             rel="noreferrer noopener"
           >
             <ProductCard
-              image_src="/playground_assets/artless-cover-image-400h.jpg"
+              image_src="/artless-cover-image-400h.jpg"
               product_name="Artless - Handwritten Font (Soon)"
-              className="home-component3"
+              className="home-component"
             ></ProductCard>
           </a>
           <a
@@ -255,9 +210,9 @@ const Home = (props) => {
             rel="noreferrer noopener"
           >
             <ProductCard
-              image_src="/playground_assets/qronik%20display%20font%20artistic%20cover-400h.jpg"
+              image_src="/qronik%20display%20font%20artistic%20cover-400h.jpg"
               product_name="Qronik - Geometric Display Font (Soon)"
-              className="home-component4"
+              className="home-component1"
             ></ProductCard>
           </a>
           <a
@@ -266,36 +221,36 @@ const Home = (props) => {
             rel="noreferrer noopener"
           >
             <ProductCard
-              image_src="/playground_assets/world%20map%20countries%20cover-400h.jpg"
+              image_src="/world%20map%20countries%20cover-400h.jpg"
               product_name="World Map - Light &amp; Dark (Soon)"
-              className="home-component5"
+              className="home-component2"
             ></ProductCard>
           </a>
         </div>
         <section className="home-section-title-products1">
-          <div className="home-container10">
-            <div className="home-container11"></div>
-            <h2 className="home-text19 hTwo">Share Things With Me</h2>
-            <div className="home-container12"></div>
+          <div className="home-container07">
+            <div className="home-container08"></div>
+            <h2 className="home-text18 hTwo">Share Things With Me</h2>
+            <div className="home-container09"></div>
           </div>
           <img
             alt="pastedImage"
-            src="/playground_assets/pastedimage-eums.svg"
-            className="home-pasted-image17"
+            src="/external/pastedimage-eums.svg"
+            className="home-pasted-image16"
           />
         </section>
-        <div className="home-container13">
-          <div className="home-container14">
+        <div className="home-container10">
+          <div className="home-container11">
             <a
               href="https://twitter.com/hishahadat"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link09 button-social button"
+              className="home-link07 button-social button"
             >
               <img
                 alt="pastedImage"
-                src="/playground_assets/pastedimage-qvdn.svg"
-                className="home-pasted-image18"
+                src="/icons/pastedimage-qvdn.svg"
+                className="home-pasted-image17"
               />
               <span className="bodyRegular">HiShahadat</span>
             </a>
@@ -303,11 +258,11 @@ const Home = (props) => {
               href="https://www.producthunt.com/@shemul"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link10 button-social button"
+              className="home-link08 button-social button"
             >
               <img
                 alt="image"
-                src="/playground_assets/pastedimage-3nmf.svg"
+                src="/icons/pastedimage-3nmf.svg"
                 className="home-image"
               />
               <span className="bodyRegular">Shemul</span>
@@ -316,11 +271,11 @@ const Home = (props) => {
               href="https://www.messenger.com/t/HelloShahadat"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link11 button-social button"
+              className="home-link09 button-social button"
             >
               <img
                 alt="image"
-                src="/playground_assets/pastedimage-zu2u.svg"
+                src="/icons/pastedimage-zu2u.svg"
                 className="home-image1"
               />
               <span className="bodyRegular">HelloShahadat</span>
@@ -329,11 +284,11 @@ const Home = (props) => {
               href="https://t.me/hishahadat"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link12 button-social button"
+              className="home-link10 button-social button"
             >
               <img
                 alt="image"
-                src="/playground_assets/pastedimage-c7cd.svg"
+                src="/icons/pastedimage-c7cd.svg"
                 className="home-image2"
               />
               <span className="bodyRegular">HiShahadat</span>
@@ -342,11 +297,11 @@ const Home = (props) => {
               href="https://www.instagram.com/hishahadat/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link13 button-social bodyRegular button"
+              className="home-link11 button-social bodyRegular button"
             >
               <img
                 alt="image"
-                src="/playground_assets/pastedimage-bgp.svg"
+                src="/icons/pastedimage-bgp.svg"
                 className="home-image3"
               />
               <span>HiShahadat</span>
@@ -354,12 +309,12 @@ const Home = (props) => {
           </div>
           <a
             href="mailto:shout@shahadat.pro?subject=Hi Shahadat..."
-            className="home-link14 bodyRegular button-cta button"
+            className="home-link12 bodyRegular button-cta button"
           >
             shout@shahadat.pro
           </a>
         </div>
-        <footer className="home-container15">
+        <footer className="home-container12">
           <span className="bodyRegular">© 2022, Shahadat.Pro</span>
         </footer>
       </div>
@@ -657,7 +612,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-twounit);
             padding-bottom: var(--dl-space-space-twounit);
           }
-          .home-section-title-sites {
+          .home-section-title-products {
             width: 100%;
             display: flex;
             position: relative;
@@ -666,13 +621,6 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-oneunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-oneunit);
-          }
-          .home-pasted-image15 {
-            width: 566px;
-            height: 258px;
-            max-width: 100%;
-            padding-left: var(--dl-space-space-oneandhalfunit);
-            padding-right: var(--dl-space-space-oneandhalfunit);
           }
           .home-container03 {
             gap: var(--dl-space-space-twounit);
@@ -701,7 +649,6 @@ const Home = (props) => {
             background-repeat: repeat-x;
           }
           .home-text17 {
-            text-align: center;
             padding-top: var(--dl-space-space-half);
             padding-bottom: var(--dl-space-space-half);
           }
@@ -720,32 +667,30 @@ const Home = (props) => {
             background-size: 12px 1px;
             background-repeat: repeat-x;
           }
-          .home-sites {
-            gap: var(--dl-space-space-sixunit);
-            flex: 0 0 auto;
-            width: 1088px;
-            height: auto;
-            display: flex;
-            max-width: 100%;
-            margin-top: var(--dl-space-space-twelveunit);
-            align-items: flex-start;
+          .home-pasted-image15 {
+            width: 748px;
+            height: 258px;
+          }
+          .home-container06 {
+            width: 100%;
+            display: grid;
+            grid-gap: var(--dl-space-space-fourunit);
+            max-width: var(--dl-size-size-mainwidth);
+            margin-top: var(--dl-space-space-eightunit);
             padding-left: var(--dl-space-space-twounit);
             padding-right: var(--dl-space-space-twounit);
-            flex-direction: column;
-          }
-          .home-link04 {
-            display: contents;
+            grid-template-columns: repeat(3, 480px);
           }
           .home-component {
             text-decoration: none;
           }
-          .home-link05 {
-            display: contents;
-          }
           .home-component1 {
             text-decoration: none;
           }
-          .home-section-title-products {
+          .home-component2 {
+            text-decoration: none;
+          }
+          .home-section-title-products1 {
             width: 100%;
             display: flex;
             position: relative;
@@ -755,7 +700,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-oneunit);
           }
-          .home-container06 {
+          .home-container07 {
             gap: var(--dl-space-space-twounit);
             left: 0px;
             width: 100%;
@@ -766,7 +711,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-container07 {
+          .home-container08 {
             flex: 1;
             width: auto;
             height: 1px;
@@ -785,7 +730,7 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-half);
             padding-bottom: var(--dl-space-space-half);
           }
-          .home-container08 {
+          .home-container09 {
             flex: 1;
             width: auto;
             height: 1px;
@@ -801,88 +746,10 @@ const Home = (props) => {
             background-repeat: repeat-x;
           }
           .home-pasted-image16 {
-            width: 748px;
-            height: 258px;
-          }
-          .home-container09 {
-            width: 100%;
-            display: grid;
-            grid-gap: var(--dl-space-space-fourunit);
-            max-width: var(--dl-size-size-mainwidth);
-            margin-top: var(--dl-space-space-eightunit);
-            padding-left: var(--dl-space-space-twounit);
-            padding-right: var(--dl-space-space-twounit);
-            grid-template-columns: repeat(3, 480px);
-          }
-          .home-component3 {
-            text-decoration: none;
-          }
-          .home-component4 {
-            text-decoration: none;
-          }
-          .home-component5 {
-            text-decoration: none;
-          }
-          .home-section-title-products1 {
-            width: 100%;
-            display: flex;
-            position: relative;
-            margin-top: var(--dl-space-space-sixteenunit);
-            align-items: center;
-            padding-top: var(--dl-space-space-oneunit);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-oneunit);
-          }
-          .home-container10 {
-            gap: var(--dl-space-space-twounit);
-            left: 0px;
-            width: 100%;
-            bottom: 0px;
-            display: flex;
-            position: absolute;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-container11 {
-            flex: 1;
-            width: auto;
-            height: 1px;
-            display: flex;
-            align-items: flex-start;
-            background-image: linear-gradient(
-              to right,
-              #33ffb6 25%,
-              rgba(255, 255, 255, 0) 0%
-            );
-            background-position: bottom;
-            background-size: 12px 1px;
-            background-repeat: repeat-x;
-          }
-          .home-text19 {
-            padding-top: var(--dl-space-space-half);
-            padding-bottom: var(--dl-space-space-half);
-          }
-          .home-container12 {
-            flex: 1;
-            width: auto;
-            height: 1px;
-            display: flex;
-            align-items: flex-start;
-            background-image: linear-gradient(
-              to right,
-              #33ffb6 25%,
-              rgba(255, 255, 255, 0) 0%
-            );
-            background-position: bottom;
-            background-size: 12px 1px;
-            background-repeat: repeat-x;
-          }
-          .home-pasted-image17 {
             width: 598px;
             height: 258px;
           }
-          .home-container13 {
+          .home-container10 {
             gap: var(--dl-space-space-twounit);
             flex: 0 0 auto;
             width: 100%;
@@ -896,7 +763,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-container14 {
+          .home-container11 {
             gap: var(--dl-space-space-twounit);
             flex: 0 0 auto;
             width: 100%;
@@ -905,15 +772,15 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-link09 {
+          .home-link07 {
             border-color: #1da1f2;
             text-decoration: none;
           }
-          .home-pasted-image18 {
+          .home-pasted-image17 {
             width: 25px;
             height: 24px;
           }
-          .home-link10 {
+          .home-link08 {
             border-color: #da552f;
             text-decoration: none;
           }
@@ -922,7 +789,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-link11 {
+          .home-link09 {
             border-image: linear-gradient(
                 264deg,
                 #ff656d 0%,
@@ -937,7 +804,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-link12 {
+          .home-link10 {
             border-color: #29aaec;
             text-decoration: none;
           }
@@ -946,7 +813,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-link13 {
+          .home-link11 {
             gap: var(--dl-space-space-threequarter);
             border-image: linear-gradient(
                 264deg,
@@ -963,7 +830,7 @@ const Home = (props) => {
             height: 24px;
             object-fit: cover;
           }
-          .home-link14 {
+          .home-link12 {
             width: 100%;
             padding-top: var(--dl-space-space-oneandhalfunit);
             padding-left: var(--dl-space-space-threeunit);
@@ -971,7 +838,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-oneandhalfunit);
             justify-content: center;
           }
-          .home-container15 {
+          .home-container12 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1021,26 +888,10 @@ const Home = (props) => {
               line-height: 125%;
               letter-spacing: -1px;
             }
-            .home-section-title-sites {
-              margin-top: var(--dl-space-space-threeunit);
+            .home-container06 {
+              grid-template-columns: repeat(1, 100%);
             }
-            .home-container03 {
-              padding-left: var(--dl-space-space-oneandhalfunit);
-            }
-            .home-container04 {
-              display: none;
-            }
-            .home-text17 {
-              font-size: 32px;
-              letter-spacing: -1px;
-            }
-            .home-sites {
-              gap: var(--dl-space-space-threeunit);
-              margin-top: var(--dl-space-space-threeunit);
-              padding-left: var(--dl-space-space-oneandhalfunit);
-              padding-right: var(--dl-space-space-oneandhalfunit);
-            }
-            .home-container14 {
+            .home-container11 {
               flex-wrap: wrap;
             }
           }

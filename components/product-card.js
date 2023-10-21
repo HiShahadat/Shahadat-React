@@ -28,6 +28,16 @@ const ProductCard = (props) => {
             height: 320px;
             object-fit: cover;
           }
+          @media (max-width: 479px) {
+            .product-card-container {
+              width: 100%;
+            }
+            .product-card-image {
+              width: 100%;
+              height: auto;
+              aspect-ratio: 3 / 2;
+            }
+          }
         `}
       </style>
     </>
