@@ -24,11 +24,6 @@ class CustomDocument extends Document {
             }}
             data-tag="default-style-sheet"
           ></style>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&amp;display=swap"
-            data-tag="font"
-          ></link>
           <noscript
             dangerouslySetInnerHTML={{
               __html:

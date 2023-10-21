@@ -12,6 +12,20 @@
   font-weight: 400;
   src: url("/fonts/uncutsans-regular.woff2") ;
 }
+@font-face {
+  font-family: "Uncut Sans Light";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 300;
+  src: url("/fonts/uncutsans-light.woff2") ;
+}
+@font-face {
+  font-family: "Uncut Sans Semibold";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 600;
+  src: url("/fonts/uncutsans-semibold.woff2") ;
+}
 :root {
   --dl-color-ui-0: #FFFFFF;
   --dl-color-ui-500: #595959;
@@ -163,8 +177,8 @@
 }
 .bodyRegular {
   font-size: 20px;
-  font-family: "Uncut Sans Regular";
-  font-weight: 400;
+  font-family: "Uncut Sans Light";
+  font-weight: 300;
   line-height: 164%;
   letter-spacing: -0.5px;
   text-transform: none;
@@ -198,7 +212,7 @@
 }
 .hFour {
   font-size: 24px;
-  font-family: "Uncut Sans Bold";
+  font-family: "Uncut Sans Semibold";
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: px;

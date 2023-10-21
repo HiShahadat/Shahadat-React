@@ -73,7 +73,7 @@ const Home = (props) => {
                 src="/external/pastedimage-rqqr.svg"
                 className="home-pasted-image05"
               />
-              <span>shout@shahadat.pro</span>
+              <span className="bodyRegular">shout@shahadat.pro</span>
             </a>
           </nav>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
@@ -315,7 +315,7 @@ const Home = (props) => {
           </a>
         </div>
         <footer className="home-container12">
-          <p className="home-text24">© 2022, Shahadat.Pro</p>
+          <p className="home-text24 bodyRegular">© 2022, Shahadat.Pro</p>
         </footer>
       </div>
       <style jsx>
@@ -849,11 +849,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-text24 {
-            font-size: 20px;
-            font-family: 'Figtree';
-            font-weight: 400;
-            line-height: 164%;
-            text-transform: none;
+            text-decoration: none;
           }
           @media (max-width: 1200px) {
             .home-email {
