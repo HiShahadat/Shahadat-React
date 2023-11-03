@@ -8,14 +8,14 @@ const SiteInfo = (props) => {
       <div className="site-info site-info-site-info">
         <div className="site-info-container">
           <div className="site-info-container1">
-            <h2 className="site-info-text hTwo">{props.site_name}</h2>
+            <h2 className="site-info-text">{props.site_name}</h2>
             <img
               alt={props.arrow_new_tab}
               src="/icons/big-arrow-top-right-white.svg"
               className="site-info-pasted-image arrow-tab"
             />
           </div>
-          <span className="site-info-text1 bodyLarge">{props.site_desc}</span>
+          <span className="site-info-text1">{props.site_desc}</span>
         </div>
         <img
           alt={props.pastedImage_alt}
@@ -26,25 +26,39 @@ const SiteInfo = (props) => {
       <style jsx>
         {`
           .site-info-container {
-            gap: var(--dl-space-space-twounit);
+            gap: 2rem;
             display: flex;
             align-items: stretch;
             flex-direction: column;
           }
           .site-info-container1 {
-            gap: var(--dl-space-space-oneunit);
+            gap: 1rem;
             display: flex;
             align-items: center;
             flex-direction: row;
           }
           .site-info-text {
             color: var(--dl-color-ui-0);
+            font-size: 80px;
+            font-family: 'Inter';
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: -3px;
+            text-transform: none;
+            text-decoration: none;
           }
           .site-info-pasted-image {
             display: none;
           }
           .site-info-text1 {
             color: var(--dl-color-ui-0);
+            font-size: 32px;
+            font-family: 'Inter';
+            font-weight: 500;
+            line-height: 150%;
+            letter-spacing: -1px;
+            text-transform: none;
+            text-decoration: none;
           }
           .site-info-pasted-image1 {
             width: 320px;
@@ -58,15 +72,7 @@ const SiteInfo = (props) => {
           }
           @media (max-width: 479px) {
             .site-info-container {
-              gap: var(--dl-space-space-half);
-            }
-            .site-info-text {
-              font-size: 32px;
-              letter-spacing: -1px;
-            }
-            .site-info-text1 {
-              font-size: 18px;
-              letter-spacing: 0px;
+              gap: 0.5rem;
             }
             .site-info-pasted-image1 {
               width: 160;

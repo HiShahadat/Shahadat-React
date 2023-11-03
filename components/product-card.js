@@ -11,12 +11,12 @@ const ProductCard = (props) => {
           src={props.image_src}
           className="product-card-image"
         />
-        <h4 className="hFour">{props.product_name}</h4>
+        <h4 className="product-card-text">{props.product_name}</h4>
       </div>
       <style jsx>
         {`
           .product-card-container {
-            gap: var(--dl-space-space-threequarter);
+            gap: 0.75rem;
             display: flex;
             position: relative;
             align-items: flex-start;
@@ -27,6 +27,15 @@ const ProductCard = (props) => {
             width: 480px;
             height: 320px;
             object-fit: cover;
+          }
+          .product-card-text {
+            font-size: 24px;
+            font-family: 'Inter';
+            font-weight: 800;
+            line-height: 1.25;
+            letter-spacing: px;
+            text-transform: none;
+            text-decoration: none;
           }
           @media (max-width: 479px) {
             .product-card-container {

@@ -20,14 +20,14 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: "Uncut Sans Regular";\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 300;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: px;\n    line-height: 150%;\n    color: var(--dl-color-ui-richdarkblue);\n    background-color: var(--dl-color-ui-0);\n    \n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: "UncutSans-Light";\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 300;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: -0.5px;\n    line-height: 32px;\n    color: var(--dl-color-ui-1000);\n    background-color: var(--dl-color-ui-0);\n    \n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<style>\nh1, h2, h3, h4, h5, h6, p { font-feature-settings: "ss02", "ss07" on;}    \n</style><noscript>',
+                "</noscript><!--This is the head section-->\n<script>function updateCountdown() {\n  const targetDate = new Date('2023-11-31 23:59:59').getTime();\n  const currentDate = new Date().getTime();\n  const timeRemaining = targetDate - currentDate;\n\n  const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));\n  const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n  const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));\n  const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);\n\n  document.getElementById('days').textContent = String(days).padStart(2, '0');\n  document.getElementById('hours').textContent = String(hours).padStart(2, '0');\n  document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');\n  document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');\n\n  if (timeRemaining <= 0) {\n    clearInterval(countdownInterval);\n    document.getElementById('countdown').textContent = 'Offer Expired';\n  }\n}\n\nupdateCountdown();\nconst countdownInterval = setInterval(updateCountdown, 1000);\n</script>\n<style>\n  @keyframes blink {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.05);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n</style><noscript>",
             }}
           ></noscript>
         </Head>
@@ -37,7 +37,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<!-- Your body code here -->\n<!-- <script type=\"text/javascript\"> ... </script> --> \n    <script data-section-id='navbar' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+                "<!-- Your body code here -->\n<!-- <script type=\"text/javascript\"> ... </script> --> \n    <script data-section-id='navbar' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>\n    ",
             }}
           ></div>
         </body>
