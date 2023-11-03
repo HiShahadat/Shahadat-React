@@ -62,7 +62,7 @@ const Akriti = (props) => {
                   ></IWantCta>
                 </a>
                 <a
-                  href="https://producthunt.com/"
+                  href="https://www.producthunt.com/products/akriti-100-abstract-vector-shapes"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="akriti-link2"
