@@ -53,8 +53,9 @@
   --dl-space-space-32: 8rem;
   --dl-space-space-64: 16rem;
   --dl-space-space-px: 1px;
+  --dl-color-brand-300: #74fbcaff;
   --dl-color-brand-500: #1df59fff;
-  --dl-color-brand-700: #0ad785ff;
+  --dl-color-brand-700: #079d61ff;
   --dl-color-brand-900: #4e19e6ff;
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
@@ -143,7 +144,7 @@
 .button-primary-cta:hover {
   color: var(--dl-color-ui-0);
   cursor: pointer;
-  background-color: var(--dl-color-brand-900);
+  background-color: var(--dl-color-brand-300);
 }
 .button-secondary-cta {
   gap: 0.75rem;

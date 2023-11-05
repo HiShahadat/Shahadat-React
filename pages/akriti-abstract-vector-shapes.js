@@ -869,7 +869,12 @@ const Akriti = (props) => {
           .akriti-pasted-image {
             width: auto;
             height: auto;
+            transition: 0.3s;
             text-decoration: none;
+          }
+          .akriti-pasted-image:hover {
+            filter: saturate(150%);
+            opacity: 0.75;
           }
           .akriti-container11 {
             gap: var(--dl-space-space-12);
