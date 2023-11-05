@@ -741,7 +741,6 @@ const Akriti = (props) => {
             flex-direction: column;
             justify-content: flex-start;
             background-color: var(--dl-color-ui-1000);
-            background-blend-mode: overlay;
           }
           .akriti-container01 {
             width: 100%;
